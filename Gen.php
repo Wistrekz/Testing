@@ -215,9 +215,9 @@ function Replace_Marks($lesson, $Marks,$GoodTruancyNumber,$BadTruancyNumber, $su
 
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script type="text/javascript">
-      var AllLessonsForCheckJson = '<?php echo json_encode($AllLessons); ?>';  //
+      var AllLessonsForCheckJson = '<?php echo json_encode($AllLessons); ?>';  //Добавление в JS массива уроков
       var AllLessonsForCheck = $.parseJSON(AllLessonsForCheckJson);
-      var AllSurnamesForCheckJson = '<?php echo json_encode($AllSurnames); ?>';  //
+      var AllSurnamesForCheckJson = '<?php echo json_encode($AllSurnames); ?>';  //Добавление в JS массива фамилий
       var AllSurnamesForCheck = $.parseJSON(AllSurnamesForCheckJson);
     </script>
     
