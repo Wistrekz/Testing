@@ -347,6 +347,7 @@ function Replace_Marks($lesson, $Marks,$GoodTruancyNumber,$BadTruancyNumber, $su
     </footer>
   </div>
 </body>
+    <script type="text/javascript" src="Bootstrap_js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="Gen.js"></script>
 </html>
