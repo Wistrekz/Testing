@@ -1,0 +1,64 @@
+
+.Predmet_zapros
+{
+    margin: 1% 50% 1% 1%;
+}
+
+.Grid-table {
+    grid-template-columns: 33% 33% 33%;
+    display: grid;
+    margin: 30px 10% 0 10%;
+}
+.Trusary-table
+{
+    grid-template-columns: 50% 50%;
+    display: grid;
+    margin: 30px 10% 0 10%;
+}
+
+/* Добавляем оформление элементам grid-контейнера: */
+.cell {
+     /* Обводим чёрным пунктиром */
+    border: 0.5px solid black; /* Скругляем углы на 10 пикселей */
+     /* Фон красим фиолетовым */
+    text-align: center; /* Контент размещаем в центре по горизонтали */
+    padding: 5%;
+}
+#ZaprosLine
+{
+    background-color: black;
+    height: 2px;
+}
+.Start_Text
+{
+    text-align: center;
+}
+.TableButton
+{
+    display: flex;
+    justify-content: center;
+}
+b
+{
+    color: brown;
+}
+html, body 
+{
+    height: 100%;
+    /* Растягиваем body по высоте html */
+}
+.wrapper
+{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main
+{
+    flex: 1 1 auto;
+}
+footer
+{
+    margin: 0;
+    background-color: darkgray;
+} 
